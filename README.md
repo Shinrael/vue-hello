@@ -7,3 +7,4 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 ### Svolgimento:
 1. Inizializzare Vue tramite il destructuring di createApp
 2. Creare la variabile name e inserirla nell'html tramite {{}}
+3. Inserisco l'immagine dando il percorso nella variabile e inserendolo poi nell'html
