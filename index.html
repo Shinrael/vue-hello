@@ -16,7 +16,8 @@
 </head>
 <body>
   <div id="app" class="text-center d-flex flex-column justify-content-center align-items-center">
-    <h1> Grazie {{name}} ! </h1>
+    <h2 class="ms-auto"> {{displayClock}} </h2>
+    <h1 :class="{'yellow': isEven, 'red': !isEven}"> Grazie {{name}} !</h1> 
     <div class="container-me text-center">
       <img :src="image" class="img-fluid" alt="">
     </div>
